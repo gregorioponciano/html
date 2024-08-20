@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <h1>Formularios extras</h1>
+    <form action="cadastro.php" method="post" autocomplete="on">
+        <p><label for="nome">nome:</label>
+            <input type="text" name="nome" id="nome" minlength="5" maxlength="15" required  placeholder="nome do usuario" autocomplete="username">
+
+        </p>
+        <p><label for="passoword">Senha:</label>
+            <input type="password" name="passoword" id="passoword" minlength="8" maxlength="20" required size="15" placeholder="minimo 8 letra" autocomplete="current-password">
+
+
+            <input type="submit" value="enviar">
+            <input type="reset" value="limpar">
+        </p>
+        
+
+
+    </form>
+
+    <!--min e maxlength para limitar a quantidade obrigatorio
+        required para campo obrigatorio para preencher
+        size = quantidade de letra que vai mostrar
+        placeholder para mostrar dentro do campo oque digitar
+        autocomplete="current-password" para salvar a senha atual-->
+    
+</body>
+</html>

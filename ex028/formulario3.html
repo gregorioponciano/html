@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+
+    <h1>teste de  Formularios</h1>
+    
+    <form action="cadastro.php" method="get" autocomplete="on">
+
+        <p><label for="nome">Nome:</label>
+            <input type="text" name="nome" id="nome" placeholder="nome de usuario" autocomplete="name" required maxlength="30" >
+        </p>
+
+        <p><label for="imedia">Media:</label>
+            <input type="number" name="imedia" id="imedia" required min="0" max="10" placeholder="0 a 10" step="0.1" value="5.1">
+        </p>
+
+        <p><label for="imes">Periodo letivo</label>
+            <input type="month" name="imes" id="imes" value="2023-06">
+        </p>
+
+        <p><label for="idia">Dia da prova</label>
+            <input type="date" name="idia" id="idia" value="2023-06-24">
+        </p>
+
+        <p><label for="ihora">Horário da prova</label>
+            <input type="time" name="ihora" id="ihora" value="16:00">
+        </p>
+
+        <p>
+            <input type="submit" value="cadastrar">
+            <input type="reset" value="limpa">
+        </p>
+
+    
+    </form>
+    
+        <!--min e max para uso de formulario nunber
+            value para mostrar data/hora tbm pode usart javascript
+            -->
+
+</body>
+</html>

@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+/* todas as demais midias */
+
+/*typical Device Breakpoints
+pequenas telas : ate 600px
+Celular: de 600px até 768px
+Tablet: 768px até 992px
+Desktop: 992 até 1200px
+TV grandes telas: acima de 1200px
+*/
+
+@media print {  /* IMPRESSÃO */
+    body {
+        background-image: url(../imagens/back-print.jpg); /*desnecessario imagem de fundo*/
+        
+    }
+
+    h1 {font-family: 'Courier New', Courier, monospace;
+        text-shadow: none;
+        color: black;
+        
+    }
+
+    main { border: 1px solid black;
+           width: 90vw;
+    
+    }
+
+    main::after { 
+        content: 'Essa impressão foi feita atraves do Gregorio Ponci';
+        text-decoration: overline; /*linha encima do texto*/
+        
+    }
+
+        #phone {display: none;}
+        #tablet {display: none;}
+        #print {display: block;}
+        #pc {display: none;}
+        #tv {display: none;}
+    }
+
+
+@media screen and (max-width: 600px) {
+
+} /*ja fiz esse estilo para pequenas telas*/
+
+@media screen and (min-width: 600px) and (max-width: 768px) { /*TABLET*/
+    body {
+        background-image: url(../imagens/back-tablet.jpg);
+    }
+
+        #phone {display: none;}
+        #tablet {display: block;}
+        #print {display: none;}
+        #pc {display: none;}
+        #tv {display: none;}
+    }
+
+
+@media screen and (min-width: 768px) and (max-width: 1200px) { /*DESKTOP*/
+    body {
+        background-image: url(../imagens/back-pc.jpg);
+    }
+
+        #phone {display: none;}
+        #tablet {display: none;}
+        #print {display: none;}
+        #pc {display: block;}
+        #tv {display: none;}
+}
+
+@media screen and (min-width: 1200px) { /*TV*/
+    body {
+        background-image: url(../imagens/back-tv.jpg);
+    }
+
+        #phone {display: none;}
+        #tablet {display: none;}
+        #print {display: none;}
+        #pc {display: none;}
+        #tv {display: block;}
+}
+
+

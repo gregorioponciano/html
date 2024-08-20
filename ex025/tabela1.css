@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+table {              margin: auto;
+                     border-collapse: collapse;
+                     border: 5px solid dimgray;
+                     min-height: 600px;
+                     
+    
+                      
+
+}
+
+td {                 border: 1px solid black;
+                     padding: 8px; 
+                     
+                     text-align: center; /*Alinhamento horizontal */
+                     vertical-align: top; /*Alinhamento vertical */
+
+                     min-width: 200px;
+                     
+                     
+
+
+}
+tr.e1 {              background-color: yellow;}

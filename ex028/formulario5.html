@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Exemplo de Formulário</h1>
+
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <fieldset>
+            <legend>Sexo</legend>
+
+            <input type="radio" name="sex" id="isexm"> <label for="isexm">Masculino</label><br>
+
+            <input type="radio" name="sex" id="isexf"> <label for="isexf">Femimino</label><br>
+
+            <input type="radio" name="sex" id="isexp" checked> <label for="isexp">Personalizado</label>
+
+        </fieldset>
+
+
+        <fieldset>
+            <legend>Esportes Favoritos</legend>
+            
+            <input type="checkbox" name="esbas" id="esbas"> <label for="esbas">Basquete</label> <br>
+
+            <input type="checkbox" name="esfut" id="esfut"> <label for="esfut">Futebol</label> <br>
+
+            <input type="checkbox" name="esnat" id="esnat"> <label for="esnat">Natação</label> <br>
+
+            <input type="checkbox" name="esten" id="esten"> <label for="esten">Tênis</label> <br>
+
+        </fieldset>
+
+        <p><input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+
+    <!--checked para aparecer a opção marcada 
+        input type radio name tem q ser igual para desmarcar a outra opção
+        -->
+    
+</body>
+</html>

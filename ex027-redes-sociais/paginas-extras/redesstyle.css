@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+* {margin: 0px;
+    padding: 0px;
+
+
+}
+img { width: 228px;
+      margin: auto;
+      
+}
+
+div {
+    text-align: center;
+    background-color: red;
+    
+    
+}
+
+a { color: white;
+    
+    padding: 5px;
+    
+
+
+}
+
+

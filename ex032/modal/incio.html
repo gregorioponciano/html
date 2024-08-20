@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salmoneus vendas</title>
+    <link rel="stylesheet" href="style.css">
+
+      <!-- Inclua o CSS do Bootstrap -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <section>
+        <div>
+
+            <h1 class="text-center mb-4">Grade de Imagens com Modais de Detalhes</h1>
+        
+            <div class="row">
+            
+                    <!-- Item 1 -->
+
+                <div class="col-md-3">
+                    <div class="card">                   
+                        <img src="bronze.jpg" class="card-img-top" alt="Imagem 1">
+                            <div class="card-body">
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal1">
+                                    Detalhes
+                                </button>
+                        </div>                                    
+                    </div>
+                </div>
+
+                   <!-- Item 2 -->
+
+                <div class="col-md-3">
+                <div class="card">
+                    <img src="prata.jpg" class="card-img-top" alt="Imagem 2">
+                        <div class="card-body">
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal2">
+                                Detalhes
+                            </button>
+                        </div>
+                </div>                        
+                </div>
+
+                   <!-- Item 3 -->
+
+                <div class="col-md-3">                               
+                    <div class="card">                                        
+                        <img src="ouro.jpg" class="card-img-top" alt="Imagem 3">
+                            <div class="card-body">                
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal3">
+                                Detalhes
+                            </button>                                      
+                            </div>
+                    </div>                        
+                </div>
+
+                    <!-- Item 4 -->
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="platina.jpg" class="card-img-top" alt="Imagem 4">
+                            <div class="card-body">
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal4">
+                                    Detalhes
+                                </button>
+                            </div>
+                    </div>                        
+                </div>
+
+            </div>                        
+        </div>
+    </header>
+
+ 
+    </section>
+
+    <footer>
+        <p>&copy; Todos os direitos reservados</p>
+    </footer>
+
+                                            <!-- Modais de Detalhes -->
+
+    <div class="modal fade" id="modal1" tabindex="-1" aria-labelledby="exampleModalLabel1" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel1">Bronze</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+                </div>
+                <div class="modal-body">
+                    <p>1 Carro Vip.</p>
+                    <p>Salario de 1.200 por hora.</p>
+                    <p>Spotify.</p>                
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modal2" tabindex="-1" aria-labelledby="exampleModalLabel2" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel2">Prata</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+                
+                
+                </div>
+                <div class="modal-body">
+                    <p>1 Carro Vip.</p>
+                    <p>Salario de 2.400 por hora.</p>
+                    <p>Spotify.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modal3" tabindex="-1" aria-labelledby="exampleModalLabel3" aria-hidden="true">      
+        <div class="modal-dialog">          
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel3">Ouro</h5>                   
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar">
+                </button>
+                </div>              
+                <div class="modal-body">
+                    <p>1 Carro Vip.</p>
+                    <p>Salario de 4.800 por hora.</p>
+                    <p>Spotify.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modal4" tabindex="-1" aria-labelledby="exampleModalLabel4" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel4">Diamante</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>                                
+            </div>
+                <div class="modal-body">
+                    <p>1 Carro Vip. </p>
+                    <p>1 Casa.</p>
+                    <p>Salario de 9200 por hora. </p>
+                    <p>Spotify.</p>
+                </div>
+            </div> 
+
+
+
+            <!-- Inclua os scripts do Bootstrap (JavaScript) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+    
+</body>
+</html>

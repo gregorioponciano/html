@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+* {                  margin: 0px;
+                     padding: 0px;
+                    
+}
+
+html, body {         height: 100vh;
+                     width: 100vw;
+                     background: url(imagens/fundo-madeira.jpg);   
+                      background-size: cover;
+                      background-repeat: no-repeat;
+                      background-color: blue;
+                      background-position: center center;
+
+                      
+}
+
+div {                 text-align: right;
+
+}
+
+.icones {             max-height: 50px;
+                      min-height: 40px;
+                      max-width: 50px;
+                      min-width: 40px;
+                      border-radius: 50%;
+                      margin: 10px;
+                      box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.411);
+                      box-sizing: border-box; /* para borda hover fazer parte da caixa */
+    
+    
+}
+
+header > div > a > img:hover  { border: 2px solid rgba(255, 255, 255, 0.699);
+                                transform: translate(-3px, -3px); /* para deslocar os icones */
+                                box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.63);
+                                transition: transform .3s, border .3s; /*para dar tempo as animaçoes */
+                          
+}
+
+
+header {              position: relative;
+                      height: 100vh;
+                      
+
+
+}
+
+
+
+iframe {              height: 455px; 
+                      padding-top: 76px;
+                      width: 246px;
+                      padding-left: 21px;
+                      
+
+
+}
+
+
+
+header > section.telefone { position: absolute;
+                            top: 50%;
+                            left: 50%;
+                            transform: translate(-50%, -50%);
+                                 
+                            background: url(imagens/frame-iphone.png);
+                            background-repeat: no-repeat;
+                            margin: auto;
+                            background-size: 96%;
+                            height: 627px;
+                            width: 300px;
+                            
+
+
+                       
+}
+
+
+
+
+
+
+
+

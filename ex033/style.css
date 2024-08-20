@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+body { 
+    background-color: rgb(59, 51, 51);
+}
+
+img {
+
+    width: 250px;
+    padding: 10px;
+    transition: all 0.5s linear;
+    filter: contrast(0%);
+}
+
+img:hover {         
+            filter: contrast(100%);
+
+}
+
+/*  modelos de filtros
+
+        blur 100px
+        grayscale 100%
+        hue-rotate 100deg
+        sepia 100%
+
+        sepia(110%) blur(110px); para usar 2 filtros
+
+*/
+
+
+

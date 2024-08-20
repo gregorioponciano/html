@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+* {                       margin: 0px;
+                          padding: 0px;}
+
+body {                   font-family: Arial, Helvetica, sans-serif;
+                         background-color: rgb(112, 174, 189);
+
+}
+
+caption {                 background-color: rgba(136, 133, 133, 0.747);
+                            font-size: 1.5em;
+                            padding: 10px;
+                            font-weight: bold;
+
+}
+
+table {                    position: relative;
+                            width: 600px;
+                            margin: auto;
+                            margin-top: 50px;
+
+}
+
+thead > tr > th {         position: sticky; 
+                          top: -1px; 
+                          background-color: rgb(61, 60, 60);   
+
+}
+
+tbody > tr:nth-child(odd) {  background-color: rgb(142, 216, 148); /* 2n-1 */
+
+}
+
+tbody > tr:nth-child(even) {
+                            background-color: rgb(182, 159, 159); /* 2n */
+}
+
+td, th {                     border: 1px solid black;
+                            padding: 10px;
+
+}
+
+thead, tfoot {               color: white;
+                            background-color: rgb(61, 60, 60);
+}
+
+td.num {                     text-align: right;
+
+}
+
+
+
+
+
+h1 {                         background-color: antiquewhite;
+                             text-align: center;
+                             margin-bottom: 25px;
+                             max-width: 600px;
+                             margin: auto;
+                             height: 100px;
+                            
+                            
+}
+
+main {                       max-width: 800px;
+                             margin: auto;
+                             background-color: blanchedalmond;
+                             text-indent: 15px;
+                             line-height: 1.5em;
+                             padding: 10px;
+                             margin-top: 10px;
+                            
+                            
+}
+
